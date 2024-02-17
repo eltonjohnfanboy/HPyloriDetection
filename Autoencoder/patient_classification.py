@@ -14,7 +14,7 @@ data_transform = transforms.Compose([
     transforms.Resize((256, 256)),
     transforms.ToTensor()
 ])
-csv_train = 'train_metadata.csv'
+csv_path = 'train_metadata.csv'
 data_dir = '/fhome/mapsiv/QuironHelico/CroppedPatches'
 ds = DatasetPatients(data_dir, csv_path, transforms = data_transform)
 
