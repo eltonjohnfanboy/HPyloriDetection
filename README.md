@@ -9,9 +9,11 @@ This repository presents two distinct methodologies for the detection of Helicob
 ![image](https://github.com/eltonjohnfanboy/HPyloriDetection/assets/103358618/bbd6773d-2043-4e16-9393-31ed6e510b48)
 
 The autoencoder method involves training the model with negative images (images without the infection). During the training phase, the autoencoder learns to reconstruct the negative images accurately, but, when confronted with positive images containing H. pylori, the autoencoder encounters difficulty in accurately reconstructing the pertinent regions due to its exclusive exposure to negative examples. 
+
 ![image](https://github.com/eltonjohnfanboy/HPyloriDetection/assets/103358618/adf9e5d1-4296-46fa-879d-579b9908ad74)
 
 By establishing a threshold for image features indicative of H. pylori presence, we can effectively classify images into positive and negative categories.
+
 ![image](https://github.com/eltonjohnfanboy/HPyloriDetection/assets/103358618/6a1828d2-dc31-4700-910d-68f4dca6d5dc)
 
 ### Contractive Learning Approach
